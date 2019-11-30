@@ -1,4 +1,4 @@
-ROM       python
+FROM       python
 RUN        pip install pipenv
 COPY       . /app
 WORKDIR    /app
